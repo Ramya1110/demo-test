@@ -60,3 +60,39 @@ button[type='submit'] {
 button[type='submit']:hover {
   background-color: #0056b3;
 }
+/* table */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: center;
+}
+.dlt-btn {
+  margin-left: 10px;
+  background-color: rgb(232, 72, 72);
+  border: none;
+  color: #f2f2f2;
+  padding: 5px 10px;
+}
+.edit-btn {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  background-color: rgb(62, 231, 177);
+  border: none;
+  color: #f2f2f2;
+  padding: 5px 10px;
+}
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
